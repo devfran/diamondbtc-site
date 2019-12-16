@@ -12,6 +12,8 @@
   font-weight: normal;
   font-style: normal; }
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
 .mouse-wrap, .scroll-wrap {
   position: absolute;
   bottom: 50px;
@@ -1032,7 +1034,7 @@ input, textarea, p {
   color: #fff; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300 !important; }
+  font-weight: 300 !important;}
 
 a {
   -webkit-transition: .3s all ease;
@@ -1699,6 +1701,15 @@ a {
 @media (max-width: 991px) {
   .pb_slide_v2 .slick-arrow {
     display: none; } }
+    @media (max-width: 767px) {
+      .col-md-5.relative.align-self-center {
+        text-align: center !important;
+      }
+    }
+@media (max-width: 460px) {
+        .pb_font-22 {
+          font-size: 17px!important;
+      } }
 
 .pb_slide_v2 .slick-arrow.prev {
   left: -50px; }
@@ -1710,12 +1721,15 @@ a {
   overflow: hidden; }
 
   .pb_navbar.scrolled.pb_scrolled-light ul li.cta-btn > a > span{
-    background-color: rgba(106,87,26,.8);
+    background-color: black;
+    border-color: #4e3188;
   } 
 .pb_navbar.scrolled.pb_scrolled-light ul li.cta-btn > a > span:hover {
     color: #fff;
-    background-color: darkslategray;
+    background-color: rgba(106,87,26,.8);
+    border-color: rgba(0, 123, 255, 0.37);
 }
+
 .pb_navbar.scrolled.pb_scrolled-light .navbar-brand, .pb_navbar.scrolled.pb_scrolled-light ul li a.active {
     color: #665fee;
     color: -moz-linear-gradient(45deg, #4e3188 0%, #665fee 100%) !important;
@@ -1724,27 +1738,19 @@ a {
     color: linear-gradient(45deg, #4e3188 0%, #665fee 100%) !important;
 }
 
+
+
+.pb_cover_v3 .heading {
+  text-shadow: 1px 1px 7px #000;
+  font-family: "Poppins", sans-serif;
+}
+.pb_cover_v3 .sub-heading.text-center{
+    float: unset; }
+.pb_cover_v3 .sub-heading.text-center p.mb-4{
+  text-shadow: .6px 1px .7px #556b2f, 2px 4px 3px rgba(0,0,0,0.3); }
+
+.euro{
+    background-image: linear-gradient(to top, rgba(0,0,0,1.99), rgba(0,0,0,.9), rgba(0,0,0,.5), rgba(0,0,0,.4), rgba(0,0,0,.3)), url("../../assets/images/bitcoin-gold.jpg") !important;
+    mix-blend-mode: lighten; }
 /*# sourceMappingURL=style.css.map */
 
-/*.bitcoinLogo {
-    position: absolute;
-    top: 0 !important;
-    right: 0 !important;
-  background-blend-mode: screen;*/
-    /*max-width: 50%;*/
- /*   flex: 0 0 50%;
-    padding-right: 0 !important;
-    z-index: 0;
-}*/
-
-/*.euro {
-    background-blend-mode: screen;             
-    background-image: linear-gradient(to top, rgba(0,0,0,1.99), rgba(0,0,0,.9), rgba(0,0,0,.5), rgba(0,0,0,.4), rgba(0,0,0,.3)), url(../assets/images/bitgold.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    height: 50rem;
-    display: block;
-    z-index: 5;
-}*/
