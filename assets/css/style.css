@@ -12,6 +12,12 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face
+{
+  src: url("../fonts/fontawesome/fonts/diagoth.ttf");
+  font-family: diamond2;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 .mouse-wrap, .scroll-wrap {
@@ -1706,10 +1712,16 @@ a {
         text-align: center !important;
       }
     }
-@media (max-width: 460px) {
+@media (max-width: 500px) {
         .pb_font-22 {
           font-size: 17px!important;
       } }
+@media (max-width: 767px) {
+.pb_cover, .pb_cover_v1, .pb_cover_v2, .pb_cover_v3, .pb_cover_v4 {
+    height: inherit;
+    text-align: center !important;
+    padding: 0 0 2em;
+} }
 
 .pb_slide_v2 .slick-arrow.prev {
   left: -50px; }
@@ -1737,8 +1749,10 @@ a {
     color: -o-linear-gradient(45deg, #4e3188 0%, #665fee 100%) !important;
     color: linear-gradient(45deg, #4e3188 0%, #665fee 100%) !important;
 }
-
-
+.pb_navbar {
+    background: linear-gradient(45deg, #4e318800 0%, #665fee00 0%);
+    box-shadow: 90px 90px 200px rgba(0, 0, 0, 0.25);
+}
 
 .pb_cover_v3 .heading {
   text-shadow: 1px 1px 7px #000;
@@ -1754,3 +1768,38 @@ a {
     mix-blend-mode: lighten; }
 /*# sourceMappingURL=style.css.map */
 
+.pb_feature-v1 .media-body, .pb_feature-v2 .media-body, p.pb_font-16.text-justify {
+      color: #4e4e4e;
+      font-family: "Poppins", sans-serif; }
+ p.pb_font-16.text-justify {
+      color: #3a3a3a; }
+
+      .pb_xl_py_cover {
+    padding: 2em 0;
+}
+
+.navbar-brand {
+  font-family: diamond2;
+}
+.navbar-dark:hover .navbar-brand:hover {
+    color: #1d82ff;
+}
+.nav-link:hover {
+  color: #1d82ff !important;
+}
+
+strong {
+    color: #d1d1d1;
+    font-weight: 600;
+    text-shadow: 0.063em 0.063em #000;
+    background-color: transparent;
+}
+.strong-h5 {
+    color: #665fee;
+    text-shadow: 0.063em 0.063em #6f6c6c;
+}
+section h2 {
+  text-shadow: 0.6px 0.6px 1.5px #533b9e;
+  font-weight: 100 !important;
+  font-family: Ubuntu, sans-serif;
+}
