@@ -1751,7 +1751,8 @@ a {
 }
 .pb_navbar {
     background: linear-gradient(45deg, #4e318800 0%, #665fee00 0%);
-    box-shadow: 90px 90px 200px rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to top, rgba(0,0,0,1.99), rgba(0,0,0,.9), rgba(0,0,0,.5), rgba(0,0,0,.4), rgba(0,0,0,.3)), url(../../assets/images/bitcoin-gold.jpg) !important;
+    mix-blend-mode: hard-light;
 }
 
 .pb_cover_v3 .heading {
