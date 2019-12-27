@@ -1752,7 +1752,7 @@ a {
 .pb_navbar {
     background: linear-gradient(45deg, #4e318800 0%, #665fee00 0%);
     background-image: linear-gradient(to top, rgba(0,0,0,1.99), rgba(0,0,0,.9), rgba(0,0,0,.5), rgba(0,0,0,.4), rgba(0,0,0,.3)), url(../../assets/images/bitcoin-gold.jpg) !important;
-    mix-blend-mode: hard-light;
+    mix-blend-mode: inherit;
 }
 
 .pb_cover_v3 .heading {
